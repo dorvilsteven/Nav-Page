@@ -1,0 +1,60 @@
+body {
+  margin:auto;
+  padding:5px;
+  max-width: 1440px;
+  font-family: "Impact", Charcoal, sans-serif;
+  font-size: 20px;
+  color: black;
+  text-align:center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.nav-bar {
+  border-bottom: 2px solid lightgrey;
+  padding: 5px;
+  height: 35px;
+}
+.nav-bar div {
+  display: inline-block;
+}
+.nav-bar .menu {
+  float:left;
+  padding-left: 25px;
+  margin-top:5px;
+}
+.nav-bar .menu a {
+  padding-left:40px;
+  text-decoration: none;
+  color:black
+}
+.nav-bar .personal {
+  float: right;
+  padding-right: 25px;
+  margin-top:5px;
+}
+.nav-bar .personal a {
+  padding-right: 40px;
+  text-decoration: none;
+  color:black;
+}
+.nav-bar .search input[type=text] {
+  padding: 6px;
+  border: none;
+  font-size: 17px;
+  border-radius: 25px;
+  background-color:lightgrey;
+}
+.nav-bar .search button {
+  padding:6px;
+  font-size: 17px;
+  border:none;
+  border-radius: 25px;
+  background-color:lightgrey;
+}
+.nav-bar .active i {
+  color: red;
+}
+
+.nav-bar a:hover {
+  color:red;
+}
